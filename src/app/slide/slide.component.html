@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="rounded-2 shadow" style="width: 1000px; height: 500px;">
+        <input class="large-text" (click)="inputClick1()" [(ngModel)]="lText" type="text" #largeInputText>
+        <!-- (keyup)="myMethod(largeText)" #largeText="ngModel" -->
+        <input class="small-text" (click)="inputClick2()" [(ngModel)]="sText" type="text" #smallInputText>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+@import '~bootstrap';
+a img{
+    width: 26px;
+}
+.ngText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 25px;
+    color:gray;
+    border: white;
+    font-size: large;
+    padding: 10px;
+    margin-left: 6px !important;
+}
+.ngText:hover{
+    border:1px solid gray;
+}
+.nav-btn{
+    padding: 0px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-btn:hover{
+    background-color:lavenderblush;
+}
