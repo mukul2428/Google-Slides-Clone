@@ -21,3 +21,16 @@ a img{
 .nav-btn:hover{
     background-color:lavenderblush;
 }
+hr{
+    margin-bottom: 0px;
+    margin-top: 3px; height: 0.5px; color: gray;
+}
+.icons{
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+.icon{
+    color: gray;
+    font-size: 19px;
+}
