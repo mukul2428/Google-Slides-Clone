@@ -34,4 +34,14 @@ export class HomeComponent implements OnInit {
   //   // } 
   // }
 
+  classArray=[
+    'add_box','arrow_drop_down','undo', 'redo', 'print',
+    'format_paint','zoom_in','arrow_drop_down','format_shapes',
+    'image','arrow_drop_down','add_comment'
+  ]
+  menuArray=[
+    'File','Edit','View','Insert','Slide','Arrange','Tools',
+    'Add-ons','Help'
+  ]
+
 }

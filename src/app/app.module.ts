@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SlideComponent } from './slide/slide.component';
+import { SlidesNumberComponent } from './slides-number/slides-number.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SlideComponent
+    SlideComponent,
+    SlidesNumberComponent
   ],
   imports: [
     BrowserModule,
