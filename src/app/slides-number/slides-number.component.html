@@ -1,2 +1,8 @@
-<span style=" position: absolute; margin-top: 20px; margin-left: 30px;">1</span>
-<div class="rounded-3" style="border: 2px solid gray; margin-top: 20px; position: absolute; margin-left: 50px; width: 150px; height: 100px;"></div>
+<div style="position: absolute;">
+    <ng-container *ngFor="let elem of blockArr; index as i">
+        <span style=" position: absolute; margin-top: 20px; margin-left: 30px;">{{i+1}}</span>
+        <div class="rounded-3"
+            style="border: 2px solid gray; margin-top: 20px; position: absolute; margin-left: 50px; width: 150px; height: 100px;">
+        </div>
+        <br><br><br><br><br><br>
+    </ng-container></div>

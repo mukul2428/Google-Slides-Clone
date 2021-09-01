@@ -1,4 +1,5 @@
 import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
+import { ClickEventService } from '../appServices/click-event.service';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,17 @@ import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private ref: ElementRef) { 
+  constructor(
+    private ref: ElementRef,
+    private click: ClickEventService) { 
     this.text = 'helo';
   }
 
   ngOnInit(): void {
+  }
+
+  clicked(){
+    this.click.clicked.next(true);
   }
 
   defaultValue = "Untitled presentation";

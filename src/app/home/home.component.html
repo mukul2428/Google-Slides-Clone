@@ -18,8 +18,9 @@
 </nav>
 <hr>
 <div style="margin-left:15px; margin-top: 5px;">
-  <ng-container *ngFor="let elem of classArray">
-    <a href="#"><mat-icon class="icon">{{elem}}</mat-icon></a>
+  <ng-container *ngFor="let elem of classArray;let i = index">
+    <a *ngIf="i==0" (click)="clicked()" href="#"><mat-icon class="icon">{{elem}}</mat-icon></a>
+    <a *ngIf="i!=0"href="#"><mat-icon class="icon">{{elem}}</mat-icon></a>
   </ng-container>
 </div>
 
